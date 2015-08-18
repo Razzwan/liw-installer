@@ -5,6 +5,6 @@ class Installer
 {
     static public function postCreateProject()
     {
-        mkdir(__DIR__ . '/newDir');
+        echo 'Razzwan: Поздравляю! Вы успешно установили Liw Framework.';
     }
 }
