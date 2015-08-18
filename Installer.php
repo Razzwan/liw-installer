@@ -5,6 +5,6 @@ class Installer
 {
     static public function postCreateProject()
     {
-        mkdir(LIW_CORE . 'newDir');
+        mkdir(__DIR__ . '/newDir');
     }
 }
