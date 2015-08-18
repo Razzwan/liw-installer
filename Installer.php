@@ -3,7 +3,7 @@ namespace liw\installer;
 
 class Installer
 {
-    static public function postCreateProject(Event $event)
+    static public function postCreateProject()
     {
         mkdir(LIW_CORE . 'newDir');
     }
