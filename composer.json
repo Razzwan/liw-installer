@@ -1,0 +1,16 @@
+{
+  "name": "liw/liw-installer",
+  "description": "The Installer Liw Framework",
+  "type": "library",
+  "keywords": ["framework", "liw", "composer"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Belik",
+      "email": "razvanlomov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "liw\\installer": "" }
+  }
+}
